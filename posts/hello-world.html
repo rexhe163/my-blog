@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你好，世界：我的第一篇博客</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">我的博客</a>
+      <nav>
+        <a href="../index.html">首页</a>
+        <a href="../about.html">关于</a>
+        <button id="theme-toggle" aria-label="切换深浅色">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="post">
+      <h1>你好，世界：我的第一篇博客</h1>
+      <time datetime="2026-10-27">2026-10-27</time>
+
+      <p>这是本博客的第一篇文章。为什么要写博客？因为写作是最好的思考方式——把学到的东西讲清楚，才算真的懂了。</p>
+
+      <h2>这个博客是怎么搭的</h2>
+      <p>技术栈非常简单：</p>
+      <ul>
+        <li><strong>纯静态页面</strong>：HTML + CSS + 少量 JS，没有框架、没有构建步骤</li>
+        <li><strong>GitHub</strong>：存放源码，作为内容管理后台</li>
+        <li><strong>Cloudflare Pages</strong>：免费托管，push 到 GitHub 后自动部署上线</li>
+      </ul>
+
+      <h2>如何发布新文章</h2>
+      <ol>
+        <li>在 <code>posts/</code> 目录下新建一个 HTML 文件（可以复制现有文章作为模板）</li>
+        <li>在首页 <code>index.html</code> 的文章列表里加一张卡片</li>
+        <li>提交并推送到 GitHub，Cloudflare 会自动更新网站</li>
+      </ol>
+
+      <p>就这么简单。希望这里能沉淀下我未来几年的思考。</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 我的博客 · 托管于 Cloudflare Pages</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

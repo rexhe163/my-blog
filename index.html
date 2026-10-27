@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的博客</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">我的博客</a>
+      <nav>
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <button id="theme-toggle" aria-label="切换深浅色">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>你好，我是 <span class="accent">YourName</span> 👋</h1>
+      <p>在这里记录技术、生活与思考。</p>
+    </section>
+
+    <section class="post-list">
+      <h2>📝 最新文章</h2>
+
+      <article class="post-card">
+        <a href="posts/hello-world.html">
+          <h3>你好，世界：我的第一篇博客</h3>
+          <time datetime="2026-10-27">2026-10-27</time>
+          <p>为什么要写博客，以及这个博客是怎么用 Cloudflare Pages + GitHub 搭建起来的。</p>
+        </a>
+      </article>
+
+      <article class="post-card">
+        <a href="posts/cloudflare-pages-guide.html">
+          <h3>Cloudflare Pages + GitHub 部署博客指南</h3>
+          <time datetime="2026-10-27">2026-10-27</time>
+          <p>从零开始：创建 GitHub 仓库、连接 Cloudflare Pages、自动部署，全程免费。</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 我的博客 · 托管于 Cloudflare Pages</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
